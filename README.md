@@ -26,7 +26,7 @@ This repository is archived on Zenodo as:
 **Torsional Holofractal Theory (TTH)**  
 Walter Calmels Von dem Knesebeck  
 [https://doi.org/10.5281/zenodo.20894792](https://doi.org/10.5281/zenodo.20894792)
----
+
 
 ## Overview
 
