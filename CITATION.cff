@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+title: "Torsional Holofractal Theory (TTH)"
+message: "If you use this repository, please cite it as below."
+type: software
+authors:
+  - family-names: "Calmels Von dem Knesebeck"
+    given-names: "Walter"
+    email: "wcalmels@phi47.cl"
+version: "1.0.0"
+date-released: "2026-06-25"
+repository-code: "https://github.com/wcalmels/tth-theory"
+license: "CC-BY-4.0"
+abstract: "Torsional Holofractal Theory (TTH): a geometric framework for objective quantum collapse, integrated information, and the physical basis of consciousness."
+keywords:
+  - torsion
+  - Einstein-Cartan gravity
+  - holofractal theory
+  - objective quantum collapse
+  - consciousness
+  - integrated information
+  - Feigenbaum constant
+  - golden ratio
