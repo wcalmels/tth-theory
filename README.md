@@ -10,6 +10,7 @@ Integrated Information, and the Physical Basis of Consciousness**
 [![License](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-yellow)](https://python.org)
 [![LaTeX](https://img.shields.io/badge/LaTeX-pdflatex-red)](https://www.latex-project.org/)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20894792.svg)](https://doi.org/10.5281/zenodo.20894792)
 
 *"The universe is a quantum gravitational optimizer, collapsing superpositions  
 into definite experiences at a rate governed by δ = 4.66920…"*
@@ -18,11 +19,13 @@ into definite experiences at a rate governed by δ = 4.66920…"*
 
 ## Zenodo DOI
 
-This repository is archived on Zenodo:
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20894792.svg)](https://doi.org/10.5281/zenodo.20894792)
+
+This repository is archived on Zenodo as:
 
 **Torsional Holofractal Theory (TTH)**  
 Walter Calmels Von dem Knesebeck  
-DOI: https://doi.org/10.5281/zenodo.20894792
+[https://doi.org/10.5281/zenodo.20894792](https://doi.org/10.5281/zenodo.20894792)
 ---
 
 ## Overview
