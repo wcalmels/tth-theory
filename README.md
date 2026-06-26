@@ -16,6 +16,13 @@ into definite experiences at a rate governed by δ = 4.66920…"*
 
 </div>
 
+## Zenodo DOI
+
+This repository is archived on Zenodo:
+
+**Torsional Holofractal Theory (TTH)**  
+Walter Calmels Von dem Knesebeck  
+DOI: https://doi.org/10.5281/zenodo.20894792
 ---
 
 ## Overview
@@ -250,7 +257,11 @@ Santiago, Chile
 🐙 [github.com/wcalmels](https://github.com/wcalmels)
 
 ---
+## Citation
 
+If you use this repository, please cite:
+
+Calmels Von dem Knesebeck, W. (2026). *Torsional Holofractal Theory (TTH)*. Zenodo. https://doi.org/10.5281/zenodo.20894792
 ## License
 
 This work is licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSE).  
