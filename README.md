@@ -17,11 +17,11 @@ Integrated Information, and the Physical Basis of Consciousness**
 </p>
 
 <p align="center">
+  <a href="https://wcalmels.github.io/tth-theory/"><b>Landing Page</b></a> ·
   <a href="https://doi.org/10.5281/zenodo.20894792"><b>Repository DOI</b></a> ·
   <a href="https://doi.org/10.5281/zenodo.20897772"><b>Paper 1</b></a> ·
   <a href="https://doi.org/10.5281/zenodo.20932474"><b>Paper 2</b></a>
 </p>
-
 *"The universe is a quantum gravitational optimizer, collapsing superpositions
 into definite experiences at a rate governed by δ = 4.66920…"*
 
