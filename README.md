@@ -12,6 +12,16 @@ Integrated Information, and the Physical Basis of Consciousness**
 [![LaTeX](https://img.shields.io/badge/LaTeX-pdflatex-red)](https://www.latex-project.org/)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20894792.svg)](https://doi.org/10.5281/zenodo.20894792)
 
+<p align="center">
+  <img src="figures/hero/tth_3d_hero.png" width="850" alt="TTH 3D Holofractal Visualization">
+</p>
+
+<p align="center">
+  <img src="figures/gifs/tth_holofractal_animation.gif" width="720" alt="Animated TTH Holofractal Field">
+</p>
+
+
+
 *"The universe is a quantum gravitational optimizer, collapsing superpositions  
 into definite experiences at a rate governed by δ = 4.66920…"*
 
