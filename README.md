@@ -27,6 +27,18 @@ This repository is archived on Zenodo as:
 Walter Calmels Von dem Knesebeck  
 [https://doi.org/10.5281/zenodo.20894792](https://doi.org/10.5281/zenodo.20894792)
 
+## Research Outputs
+
+### Repository
+
+Calmels Von dem Knesebeck, W. (2026). *Torsional Holofractal Theory (TTH)*. Zenodo.  
+[https://doi.org/10.5281/zenodo.20894792](https://doi.org/10.5281/zenodo.20894792)
+
+### Paper 1
+
+Calmels Von dem Knesebeck, W. (2026). *Torsional Holofractal Theory: A Geometric Framework for Objective Quantum Collapse, Integrated Information, and the Physical Basis of Consciousness*. Zenodo.  
+[https://doi.org/10.5281/zenodo.20897772](https://doi.org/10.5281/zenodo.20897772)
+
 
 ## Overview
 
