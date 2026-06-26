@@ -223,8 +223,7 @@ If you use TTH in your research, please cite:
   author  = {Calmels Von dem Knesebeck, Walter},
   title   = {Torsional Holofractal Theory: A Geometric Framework for
              Objective Quantum Collapse, Integrated Information,
-             and the Physical Basis of Consciousness},
-  journal = {Physical Review D},
+             and the Physical Basis of Consciousness}
   year    = {2026},
   note    = {Manuscript submitted}
 }
@@ -246,7 +245,7 @@ If you use TTH in your research, please cite:
 
 **Walter Calmels Von dem Knesebeck**  
 Founder & CTO, TUCH Systems Research Laboratory  
-Buenos Aires, Argentina · Santiago (Maipú Lab), Chile  
+Santiago, Chile  
 📧 [wcalmels@phi47.cl](mailto:wcalmels@phi47.cl)  
 🐙 [github.com/wcalmels](https://github.com/wcalmels)
 
