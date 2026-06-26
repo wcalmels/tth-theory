@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Torsional Holofractal Theory (TTH)</title>
+  <meta name="description" content="Torsional Holofractal Theory (TTH): a geometric framework for objective quantum collapse, integrated information, and the physical basis of consciousness." />
+
+  <style>
+    :root {
+      --bg: #070b18;
+      --card: #10182b;
+      --card2: #131d34;
+      --text: #edf2ff;
+      --muted: #aab6d3;
+      --accent: #7aa2ff;
+      --accent2: #9ff6d1;
+      --border: rgba(255,255,255,0.12);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background:
+        radial-gradient(circle at 20% 20%, rgba(122,162,255,0.22), transparent 35%),
+        radial-gradient(circle at 80% 10%, rgba(159,246,209,0.16), transparent 30%),
+        linear-gradient(180deg, #070b18 0%, #0b1020 55%, #070b18 100%);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    a {
+      color: var(--accent2);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .wrap {
+      width: min(1120px, calc(100% - 32px));
+      margin: 0 auto;
+    }
+
+    header {
+      padding: 72px 0 36px;
+      text-align: center;
+    }
+
+    .badge-row {
+      display: flex;
+      justify-content: center;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-bottom: 24px;
+    }
+
+    .badge {
+      border: 1px solid var(--border);
+      background: rgba(255,255,255,0.06);
+      color: var(--muted);
+      padding: 7px 11px;
+      border-radius: 999px;
+      font-size: 13px;
+    }
+
+    h1 {
+      font-size: clamp(38px, 6vw, 76px);
+      line-height: 0.98;
+      letter-spacing: -0.055em;
+      margin: 0 auto 20px;
+      max-width: 960px;
+    }
+
+    .subtitle {
+      font-size: clamp(18px, 2.4vw, 26px);
+      color: var(--muted);
+      max-width: 860px;
+      margin: 0 auto 28px;
+    }
+
+    .cta-row {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin: 28px 0 36px;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 12px 18px;
+      border-radius: 12px;
+      border: 1px solid var(--border);
+      background: rgba(255,255,255,0.07);
+      color: var(--text);
+      font-weight: 650;
+    }
+
+    .btn.primary {
+      background: linear-gradient(135deg, rgba(122,162,255,0.34), rgba(159,246,209,0.22));
+      border-color: rgba(159,246,209,0.35);
+    }
+
+    .hero-img {
+      width: min(860px, 100%);
+      border-radius: 22px;
+      border: 1px solid var(--border);
+      box-shadow: 0 24px 80px rgba(0,0,0,0.45);
+      background: #050712;
+    }
+
+    section {
+      padding: 42px 0;
+    }
+
+    .section-title {
+      font-size: clamp(28px, 4vw, 42px);
+      letter-spacing: -0.035em;
+      margin: 0 0 12px;
+    }
+
+    .section-lead {
+      color: var(--muted);
+      max-width: 820px;
+      margin: 0 0 24px;
+      font-size: 17px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+    }
+
+    .card {
+      border: 1px solid var(--border);
+      background: linear-gradient(180deg, rgba(255,255,255,0.07), rgba(255,255,255,0.035));
+      border-radius: 18px;
+      padding: 22px;
+      min-height: 160px;
+    }
+
+    .card h3 {
+      margin: 0 0 8px;
+      font-size: 18px;
+    }
+
+    .card p {
+      margin: 0;
+      color: var(--muted);
+    }
+
+    .output {
+      display: grid;
+      grid-template-columns: 1.2fr 2fr 1fr;
+      gap: 14px;
+      align-items: center;
+      padding: 16px;
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      background: rgba(255,255,255,0.045);
+      margin-bottom: 12px;
+    }
+
+    .output strong {
+      display: block;
+    }
+
+    .output span {
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .equation {
+      border: 1px solid var(--border);
+      background: rgba(0,0,0,0.25);
+      border-radius: 16px;
+      padding: 18px;
+      overflow-x: auto;
+      color: #dbe7ff;
+      font-family: "Consolas", "Menlo", monospace;
+      font-size: 15px;
+    }
+
+    .visual-pair {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 18px;
+      align-items: center;
+    }
+
+    .visual-pair img {
+      width: 100%;
+      border-radius: 18px;
+      border: 1px solid var(--border);
+    }
+
+    footer {
+      padding: 42px 0 68px;
+      color: var(--muted);
+      text-align: center;
+      border-top: 1px solid var(--border);
+      margin-top: 36px;
+    }
+
+    @media (max-width: 860px) {
+      .grid,
+      .visual-pair {
+        grid-template-columns: 1fr;
+      }
+
+      .output {
+        grid-template-columns: 1fr;
+      }
+
+      header {
+        padding-top: 48px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header class="wrap">
+    <div class="badge-row">
+      <span class="badge">TTH</span>
+      <span class="badge">Einstein–Cartan torsion</span>
+      <span class="badge">Objective collapse</span>
+      <span class="badge">Integrated information</span>
+      <span class="badge">Zenodo archived</span>
+    </div>
+
+    <h1>Torsional Holofractal Theory</h1>
+
+    <p class="subtitle">
+      A geometric framework for objective quantum collapse, integrated information,
+      and the physical basis of consciousness.
+    </p>
+
+    <div class="cta-row">
+      <a class="btn primary" href="https://github.com/wcalmels/tth-theory">View GitHub Repository</a>
+      <a class="btn" href="https://doi.org/10.5281/zenodo.20894792">Repository DOI</a>
+      <a class="btn" href="https://doi.org/10.5281/zenodo.20897772">Paper 1</a>
+      <a class="btn" href="https://doi.org/10.5281/zenodo.20932474">Paper 2</a>
+    </div>
+
+    <img class="hero-img" src="../figures/gifs/tth_holofractal_animation.gif" alt="Animated TTH holofractal visualization" />
+  </header>
+
+  <main>
+    <section class="wrap">
+      <h2 class="section-title">Research outputs</h2>
+      <p class="section-lead">
+        The TTH repository and associated manuscripts are archived with separate DOI records
+        for reproducibility, citation, and long-term preservation.
+      </p>
+
+      <div class="output">
+        <div>
+          <strong>Repository</strong>
+          <span>Research code, papers, figures, and documentation</span>
+        </div>
+        <div>Torsional Holofractal Theory (TTH) research repository</div>
+        <a href="https://doi.org/10.5281/zenodo.20894792">10.5281/zenodo.20894792</a>
+      </div>
+
+      <div class="output">
+        <div>
+          <strong>Paper 1</strong>
+          <span>Foundational theory</span>
+        </div>
+        <div>Geometric framework for objective quantum collapse, integrated information, and consciousness</div>
+        <a href="https://doi.org/10.5281/zenodo.20897772">10.5281/zenodo.20897772</a>
+      </div>
+
+      <div class="output">
+        <div>
+          <strong>Paper 2</strong>
+          <span>Neural implementation</span>
+        </div>
+        <div>Hierarchical consciousness architecture, neural implementation, and experimental predictions</div>
+        <a href="https://doi.org/10.5281/zenodo.20932474">10.5281/zenodo.20932474</a>
+      </div>
+    </section>
+
+    <section class="wrap">
+      <h2 class="section-title">Core idea</h2>
+      <p class="section-lead">
+        TTH extends Einstein–Cartan gravity with a holofractal scalar field φ(x),
+        a golden-ratio vacuum scale, and a Feigenbaum-modulated potential. The framework
+        generates coupled predictions across gravitational theory, quantum collapse,
+        cosmology, and neurophysical dynamics.
+      </p>
+
+      <div class="equation">
+S_TTH = ∫ d⁴x √(-g) [L_EC + L_φ + L_matter + L_int]
+      </div>
+    </section>
+
+    <section class="wrap">
+      <h2 class="section-title">Five falsifiable predictions</h2>
+      <p class="section-lead">
+        The framework is organized around testable consequences in cosmology, quantum optics,
+        and neuroscience.
+      </p>
+
+      <div class="grid">
+        <div class="card">
+          <h3>P1 · Cosmology</h3>
+          <p>Log-periodic CMB modulation: δC_ℓ/C_ℓ ~ 2% sin(δ·ln ℓ).</p>
+        </div>
+        <div class="card">
+          <h3>P2 · Quantum optics</h3>
+          <p>Ultra-cold neutron decoherence rate Γ_UCN ~ 10⁻⁶ Hz.</p>
+        </div>
+        <div class="card">
+          <h3>P3 · Neuroscience</h3>
+          <p>EEG fractal dimension D_f^EEG = 1.599 during conscious wakefulness.</p>
+        </div>
+        <div class="card">
+          <h3>P4 · IIT bridge</h3>
+          <p>Integrated information scales as Φ_IIT ∝ (D_f − 3)².</p>
+        </div>
+        <div class="card">
+          <h3>P5 · Entrainment</h3>
+          <p>Schumann resonance at 7.83 Hz modulates D_f and PCI.</p>
+        </div>
+        <div class="card">
+          <h3>Validation path</h3>
+          <p>Numerical simulations, CMB comparison, EEG/MFDFA, and TMS-EEG protocols.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrap">
+      <h2 class="section-title">Visual model</h2>
+      <p class="section-lead">
+        A compact visualization of torsional holofractal coupling, hierarchical structure,
+        and objective collapse dynamics.
+      </p>
+
+      <div class="visual-pair">
+        <img src="../figures/hero/tth_3d_hero.png" alt="TTH 3D holofractal visualization" />
+        <div>
+          <h3>Physical substrate → Holofractal field → Collapse event → Phenomenal experience</h3>
+          <p class="section-lead">
+            The visual model summarizes the conceptual pipeline used throughout the repository:
+            physical substrate, holofractal coupling, quantum coherence, objective collapse,
+            and phenomenal integration.
+          </p>
+          <div class="cta-row" style="justify-content:flex-start;">
+            <a class="btn" href="https://github.com/wcalmels/tth-theory/tree/main/figures">View figures</a>
+            <a class="btn" href="https://github.com/wcalmels/tth-theory/tree/main/scripts/visualization">Visualization script</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrap">
+      <h2 class="section-title">Reproduce the repository</h2>
+      <p class="section-lead">
+        The repository includes LaTeX manuscripts, validation code, figure-generation scripts,
+        and visual assets.
+      </p>
+
+      <div class="grid">
+        <div class="card">
+          <h3>Run validations</h3>
+          <p><code>cd code/validation</code><br><code>python run_all_tests.py</code></p>
+        </div>
+        <div class="card">
+          <h3>Generate figures</h3>
+          <p><code>cd figures/scripts</code><br><code>python figures_1to7.py</code></p>
+        </div>
+        <div class="card">
+          <h3>Compile papers</h3>
+          <p><code>cd papers/latex</code><br><code>pdflatex paper1.tex</code></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrap">
+    <p>
+      Walter Calmels Von dem Knesebeck · TUCH Systems Research Laboratory · Santiago, Chile
+    </p>
+    <p>
+      <a href="mailto:wcalmels@phi47.cl">wcalmels@phi47.cl</a> ·
+      <a href="https://github.com/wcalmels">github.com/wcalmels</a>
+    </p>
+  </footer>
+</body>
+</html>
