@@ -39,6 +39,10 @@ Calmels Von dem Knesebeck, W. (2026). *Torsional Holofractal Theory (TTH)*. Zeno
 Calmels Von dem Knesebeck, W. (2026). *Torsional Holofractal Theory: A Geometric Framework for Objective Quantum Collapse, Integrated Information, and the Physical Basis of Consciousness*. Zenodo.  
 [https://doi.org/10.5281/zenodo.20897772](https://doi.org/10.5281/zenodo.20897772)
 
+### Paper 2
+
+Calmels Von dem Knesebeck, W. (2026). *Hierarchical Consciousness Architecture in Torsional Holofractal Theory: Neural Implementation and Experimental Predictions*. Zenodo.  
+[https://doi.org/10.5281/zenodo.20932474](https://doi.org/10.5281/zenodo.20932474)
 
 ## Overview
 
